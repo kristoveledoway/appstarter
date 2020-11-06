@@ -33,7 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Dashboard::index');
 
-//crud data user
+// crud data user
 $routes->get('/data_user', 'Data_User::index');
 $routes->get('/data_user/tambah', 'Data_User::tambah');
 $routes->add('/data_user/tambah', 'Data_User::tambah');
