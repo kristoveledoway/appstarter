@@ -45,6 +45,7 @@ $routes->add('/data_user/delete/(:num)', 'Data_User::delete/$1');
 $routes->get('/data_diri', 'Data_Diri::index');
 $routes->get('/data_diri/tambah', 'Data_Diri::tambah');
 $routes->add('/data_diri/tambah', 'Data_Diri::tambah');
+$routes->get('/data_diri/detail/(:num)', 'Data_Diri::detail/$1');
 $routes->get('/data_diri/edit/(:num)', 'Data_Diri::edit/$1');
 $routes->add('/data_diri/edit/(:num)', 'Data_Diri::edit/$1');
 $routes->add('/data_diri/delete/(:num)', 'Data_Diri::delete/$1');

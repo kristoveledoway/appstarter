@@ -116,6 +116,6 @@ class Data_Diri extends Controller
         $data = array(
             'users'    => $users
         );
-        return view('data_diri/edit', $data);      
+        return view('data_diri/detail', $data);      
     }
 }
