@@ -1,0 +1,120 @@
+CRITICAL - 2020-10-29 11:12:07 --> Undefined property: stdClass::$product_id
+#0 C:\xampp\htdocs\appstarter\app\Views\data_user\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_user/index', Array, true)
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(14): view('data_user/index', Array)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->index()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-29 11:12:35 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\appstarter\app\Views\data_user\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_user/index', Array, true)
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(14): view('data_user/index', Array)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->index()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-29 11:12:38 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\appstarter\app\Views\data_user\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_user/index', Array, true)
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(14): view('data_user/index', Array)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->index()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-29 11:14:57 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\appstarter\app\Views\data_user\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_user/index', Array, true)
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(14): view('data_user/index', Array)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->index()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-29 12:01:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_user/index', Array, true)
+#2 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(14): view('data_user/index', Array)
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->index()
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-29 12:14:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\appstarter\app\Models\M_user.php(17): CodeIgniter\Model->__call('where', Array)
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(20): App\Models\M_user->hapus('1')
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->delete('1')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-29 12:24:11 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\appstarter\app\Models\M_user.php(17): CodeIgniter\Model->__call('where', Array)
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(20): App\Models\M_user->hapus('1')
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->delete('1')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-29 12:27:33 --> Undefined variable: session
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->delete('1')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-29 12:30:34 --> Undefined variable: session
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->delete('3')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-29 22:05:20 --> Not unique table/alias: 'data_user'
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\appstarter\app\Models\M_user.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(27): App\Models\M_user->detail('1')
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->edit('1')
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#9 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-29 22:53:06 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 23:13:18 --> Undefined variable: users
+#0 C:\xampp\htdocs\appstarter\app\Views\data_user\tambah.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_user/tamba...', Array, true)
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_User.php(40): view('data_user/tamba...')
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_User->tambah()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_User))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
