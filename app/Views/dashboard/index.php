@@ -11,7 +11,7 @@
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Dashboard v1</li>
+                    <li class="breadcrumb-item active">Dashboard</li>
                 </ol>
             </div><!-- /.col -->
         </div><!-- /.row -->
@@ -41,7 +41,7 @@ $c = $a - $b;
                     <div class="icon">
                         <i class="ion ion-social-usd"></i>
                     </div>
-                    <a href="#" class="small-box-footer">Lihat data <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="<?= base_url('data_kas_masuk') ?>" class="small-box-footer">Lihat data <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -56,7 +56,7 @@ $c = $a - $b;
                     <div class="icon">
                         <i class="ion ion-social-usd"></i>
                     </div>
-                    <a href="#" class="small-box-footer">Lihat data <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="<?= base_url('data_kas_keluar') ?>" class="small-box-footer">Lihat data <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -72,21 +72,6 @@ $c = $a - $b;
                         <i class="ion ion-social-usd"></i>
                     </div>
                     <a href="#" class="small-box-footer">Lihat data <i class="fas fa-arrow-circle-right"></i></a>
-                </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-                <!-- small box -->
-                <div class="small-box bg-danger">
-                    <div class="inner">
-                        <h3>65</h3>
-
-                        <p>Unique Visitors</p>
-                    </div>
-                    <div class="icon">
-                        <i class="ion ion-pie-graph"></i>
-                    </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
