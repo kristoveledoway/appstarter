@@ -50,6 +50,42 @@ $routes->get('/data_diri/edit/(:num)', 'Data_Diri::edit/$1');
 $routes->add('/data_diri/edit/(:num)', 'Data_Diri::edit/$1');
 $routes->add('/data_diri/delete/(:num)', 'Data_Diri::delete/$1');
 
+//crud data surat masuk
+$routes->get('/data_surat_masuk', 'Data_Surat_Masuk::index');
+$routes->get('/data_surat_masuk/tambah', 'Data_Surat_Masuk::tambah');
+$routes->add('/data_surat_masuk/tambah', 'Data_Surat_Masuk::tambah');
+$routes->get('/data_surat_masuk/detail/(:num)', 'Data_Surat_Masuk::detail/$1');
+$routes->get('/data_surat_masuk/edit/(:num)', 'Data_Surat_Masuk::edit/$1');
+$routes->add('/data_surat_masuk/edit/(:num)', 'Data_Surat_Masuk::edit/$1');
+$routes->add('/data_surat_masuk/delete/(:num)', 'Data_Surat_Masuk::delete/$1');
+
+// crud data surat keluar
+$routes->get('/data_surat_keluar', 'Data_Surat_Keluar::index');
+$routes->get('/data_surat_keluar/tambah', 'Data_Surat_Keluar::tambah');
+$routes->add('/data_surat_keluar/tambah', 'Data_Surat_Keluar::tambah');
+$routes->get('/data_surat_keluar/detail/(:num)', 'Data_Surat_Keluar::detail/$1');
+$routes->get('/data_surat_keluar/edit/(:num)', 'Data_Surat_Keluar::edit/$1');
+$routes->add('/data_surat_keluar/edit/(:num)', 'Data_Surat_Keluar::edit/$1');
+$routes->add('/data_surat_keluar/delete/(:num)', 'Data_Surat_Keluar::delete/$1');
+
+// crud data kas masuk
+$routes->get('/data_kas_masuk', 'Data_Kas_Masuk::index');
+$routes->get('/data_kas_masuk/tambah', 'Data_Kas_Masuk::tambah');
+$routes->add('/data_kas_masuk/tambah', 'Data_Kas_Masuk::tambah');
+$routes->get('/data_kas_masuk/detail/(:num)', 'Data_Kas_Masuk::detail/$1');
+$routes->get('/data_kas_masuk/edit/(:num)', 'Data_Kas_Masuk::edit/$1');
+$routes->add('/data_kas_masuk/edit/(:num)', 'Data_Kas_Masuk::edit/$1');
+$routes->add('/data_kas_masuk/delete/(:num)', 'Data_Kas_Masuk::delete/$1');
+
+// crud data kas keluar
+$routes->get('/data_kas_keluar', 'Data_Kas_Keluar::index');
+$routes->get('/data_kas_keluar/tambah', 'Data_Kas_Keluar::tambah');
+$routes->add('/data_kas_keluar/tambah', 'Data_Kas_Keluar::tambah');
+$routes->get('/data_kas_keluar/detail/(:num)', 'Data_Kas_Keluar::detail/$1');
+$routes->get('/data_kas_keluar/edit/(:num)', 'Data_Kas_Keluar::edit/$1');
+$routes->add('/data_kas_keluar/edit/(:num)', 'Data_Kas_Keluar::edit/$1');
+$routes->add('/data_kas_keluar/delete/(:num)', 'Data_Kas_Keluar::delete/$1');
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing

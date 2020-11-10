@@ -18,7 +18,13 @@
     </div><!-- /.container-fluid -->
 </div>
 <!-- /.content-header -->
+<?php 
 
+    $a = $totalkasmasuk;
+    $b = $totalkaskeluar;
+    $c = $a-$b; 
+
+?>
 <!-- Main content -->
 <section class="content">
     <div class="container-fluid">
@@ -28,14 +34,14 @@
                 <!-- small box -->
                 <div class="small-box bg-info">
                     <div class="inner">
-                        <h3>150</h3>
+                        <h4><?php echo "Rp. " . number_format($totalkasmasuk); ?>,-</h4>
 
-                        <p>New Orders</p>
+                        <p>Jumlah Kas Masuk</p>
                     </div>
                     <div class="icon">
-                        <i class="ion ion-bag"></i>
+                        <i class="ion ion-social-usd"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="#" class="small-box-footer">Lihat data <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -43,14 +49,14 @@
                 <!-- small box -->
                 <div class="small-box bg-success">
                     <div class="inner">
-                        <h3>53<sup style="font-size: 20px">%</sup></h3>
+                        <h4><?php echo "Rp. " . number_format($totalkaskeluar); ?>,-</h4>
 
-                        <p>Bounce Rate</p>
+                        <p>Jumlah Kas Keluar</p>
                     </div>
                     <div class="icon">
-                        <i class="ion ion-stats-bars"></i>
+                        <i class="ion ion-social-usd"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="#" class="small-box-footer">Lihat data <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -58,14 +64,14 @@
                 <!-- small box -->
                 <div class="small-box bg-warning">
                     <div class="inner">
-                        <h3>44</h3>
+                        <h4><?php echo "Rp. " . number_format($c); ?>,-</h4>
 
-                        <p>User Registrations</p>
+                        <p>Total Kas Keseluruhan</p>
                     </div>
                     <div class="icon">
-                        <i class="ion ion-person-add"></i>
+                        <i class="ion ion-social-usd"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="#" class="small-box-footer">Lihat data <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->

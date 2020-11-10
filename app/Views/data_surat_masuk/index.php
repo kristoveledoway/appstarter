@@ -28,38 +28,45 @@
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Data Surat Masuk</h3>
-                        <h3 class="btn btn-success float-sm-right">Tambah Data Surat Masuk</h3>
+                        <div class="float-sm-right"><a href="<?php echo base_url('data_surat_masuk/tambah') ?>" class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Tambah Data Surat Masuk</a></div>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>Rendering engine</th>
-                                    <th>Browser</th>
-                                    <th>Platform(s)</th>
-                                    <th>Engine version</th>
-                                    <th>CSS grade</th>
+                                    <th>No. Surat Masuk</th>
+                                    <th>Tanggal Surat Diterima</th>
+                                    <th>Perihal</th>
+                                    <th>Lampiran</th>
+                                    <th>File</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php foreach ($surat_masuk as $row) : ?>
                                 <tr>
-                                    <td>Trident</td>
-                                    <td>Internet
-                                        Explorer 4.0
+                                    <td><?= $row->no_surat_masuk; ?></td>
+                                    <td><?= $row->tgl_diterima; ?></td>
+                                    <td><?= $row->perihal; ?></td>
+                                    <td><?= $row->lampiran; ?></td>
+                                    <td><?= $row->file; ?></td>
+                                    <td>
+                                        <a class="btn btn-success btn-sm" href="<?php echo base_url('data_surat_masuk/detail/' . $row->no_surat_masuk) ?>">Detail</a>
+                                        <a class="btn btn-warning btn-sm" href="<?php echo base_url('data_surat_masuk/edit/' . $row->no_surat_masuk) ?>">Edit</a>
+                                        <a class="btn btn-danger btn-sm" href="<?php echo base_url('data_surat_masuk/delete/' . $row->no_surat_masuk) ?>" onclick="return confirm('Yakin ingin menghapus kategori ini?')">Hapus</a>
                                     </td>
-                                    <td>Win 95+</td>
-                                    <td> 4</td>
-                                    <td>X</td>
                                 </tr>
+                                <?php endforeach; ?>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>Rendering engine</th>
-                                    <th>Browser</th>
-                                    <th>Platform(s)</th>
-                                    <th>Engine version</th>
-                                    <th>CSS grade</th>
+                                    <th>No. Surat Masuk</th>
+                                    <th>Tanggal Surat Diterima</th>
+                                    <th>Perihal</th>
+                                    <th>Lampiran</th>
+                                    <th>File</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </tfoot>
                         </table>

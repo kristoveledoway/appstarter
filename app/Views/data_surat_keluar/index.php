@@ -28,38 +28,51 @@
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Data Surat Keluar</h3>
-                        <h3 class="btn btn-success float-sm-right">Tambah Data Surat Keluar</h3>
+                        <div class="float-sm-right"><a href="<?php echo base_url('data_surat_keluar/tambah') ?>" class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Tambah Data Surat Keluar</a></div>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
                         <table id="example1" class="table table-bordered table-striped">
-                            <thead>
+                        <thead>
                                 <tr>
-                                    <th>Rendering engine</th>
-                                    <th>Browser</th>
-                                    <th>Platform(s)</th>
-                                    <th>Engine version</th>
-                                    <th>CSS grade</th>
+                                    <th>No. Surat Keluar</th>
+                                    <th>Tanggal Surat Keluar</th>
+                                    <th>Perihal</th>
+                                    <th>Sifat</th>
+                                    <th>Lampiran</th>
+                                    <th>No. Surat Masuk</th>
+                                    <th>File</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php foreach ($surat_keluar as $row) : ?>
                                 <tr>
-                                    <td>Trident</td>
-                                    <td>Internet
-                                        Explorer 4.0
+                                    <td><?= $row->no_surat_keluar; ?></td>
+                                    <td><?= $row->tgl_surat; ?></td>
+                                    <td><?= $row->perihal; ?></td>
+                                    <td><?= $row->sifat; ?></td>
+                                    <td><?= $row->lampiran; ?></td>
+                                    <td><?= $row->no_surat_masuk; ?></td>
+                                    <td><?= $row->file; ?></td>
+                                    <td>
+                                        <a class="btn btn-success btn-sm" href="<?php echo base_url('data_surat_keluar/detail/' . $row->no_surat_keluar) ?>">Detail</a>
+                                        <a class="btn btn-warning btn-sm" href="<?php echo base_url('data_surat_keluar/edit/' . $row->no_surat_keluar) ?>">Edit</a>
+                                        <a class="btn btn-danger btn-sm" href="<?php echo base_url('data_surat_keluar/delete/' . $row->no_surat_keluar) ?>" onclick="return confirm('Yakin ingin menghapus kategori ini?')">Hapus</a>
                                     </td>
-                                    <td>Win 95+</td>
-                                    <td> 4</td>
-                                    <td>X</td>
                                 </tr>
+                                <?php endforeach; ?>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>Rendering engine</th>
-                                    <th>Browser</th>
-                                    <th>Platform(s)</th>
-                                    <th>Engine version</th>
-                                    <th>CSS grade</th>
+                                    <th>No. Surat Keluar</th>
+                                    <th>Tanggal Surat Keluar</th>
+                                    <th>Perihal</th>
+                                    <th>Sifat</th>
+                                    <th>Lampiran</th>
+                                    <th>No. Surat Masuk</th>
+                                    <th>File</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </tfoot>
                         </table>

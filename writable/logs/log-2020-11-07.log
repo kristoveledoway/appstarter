@@ -1,0 +1,102 @@
+CRITICAL - 2020-11-07 05:20:25 --> Undefined index: id
+#0 /opt/lampp/htdocs/appstarter/app/Views/data_surat_masuk/detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 33, Array)
+#1 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#3 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(22): view('data_surat_masu...', Array)
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->detail('1')
+#5 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-11-07 05:21:03 --> Undefined index: id
+#0 /opt/lampp/htdocs/appstarter/app/Views/data_surat_masuk/detail.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#3 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(22): view('data_surat_masu...', Array)
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->detail('1')
+#5 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-11-07 05:21:20 --> Undefined index: nama
+#0 /opt/lampp/htdocs/appstarter/app/Views/data_surat_masuk/detail.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 40, Array)
+#1 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#3 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(22): view('data_surat_masu...', Array)
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->detail('1')
+#5 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-11-07 06:12:41 --> Undefined variable: users
+#0 /opt/lampp/htdocs/appstarter/app/Views/data_surat_masuk/tambah.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 32, Array)
+#1 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#3 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(50): view('data_surat_masu...')
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->tambah()
+#5 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-11-07 06:15:04 --> syntax error, unexpected ']', expecting ')'
+#0 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#1 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(50): view('data_surat_masu...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->tambah()
+#3 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2020-11-07 06:15:06 --> syntax error, unexpected ']', expecting ')'
+#0 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#1 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(50): view('data_surat_masu...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->tambah()
+#3 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2020-11-07 06:15:07 --> syntax error, unexpected ']', expecting ')'
+#0 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#1 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(50): view('data_surat_masu...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->tambah()
+#3 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2020-11-07 06:15:07 --> syntax error, unexpected ']', expecting ')'
+#0 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#1 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(50): view('data_surat_masu...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->tambah()
+#3 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2020-11-07 06:15:33 --> Undefined variable: users
+#0 /opt/lampp/htdocs/appstarter/app/Views/data_surat_masuk/tambah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 33, Array)
+#1 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#3 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(50): view('data_surat_masu...')
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->tambah()
+#5 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-11-07 06:15:35 --> Undefined variable: users
+#0 /opt/lampp/htdocs/appstarter/app/Views/data_surat_masuk/tambah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 33, Array)
+#1 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#3 /opt/lampp/htdocs/appstarter/app/Controllers/Data_Surat_Masuk.php(50): view('data_surat_masu...')
+#4 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->tambah()
+#5 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/appstarter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/appstarter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
