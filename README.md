@@ -34,6 +34,6 @@ website ikatan mahasiswa seluruh kabupaten deiyai
 
 ### Kristovel Dev :
 * **Selasa 10 November 2020**
-  - Menambahkan Controller ke semua Data CRUD [Solved]
+  - Menambahkan Controllers ke semua Data CRUD [Solved]
   - Menambahkan Models ke semua Data CRUD [Solved]
-  - Menambahkan View ke semua data CRUD [Solved]
+  - Menambahkan Views ke semua data CRUD [Solved]
