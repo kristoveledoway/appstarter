@@ -2,7 +2,7 @@
 
 ## website ikatan mahasiswa seluruh kabupaten deiyai
 
-[![Build Status](https://github.com/kristoveledoway/appstarter)](https://github.com/kristoveledoway/appstarter)
+[![Build Status](https://travis-ci.org/github/kristoveledoway/appstarter)](https://travis-ci.org/github/kristoveledoway/appstarter)
 
 ### Back End Applikasi
 
