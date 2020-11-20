@@ -33,8 +33,9 @@
                     <!-- /.card-header -->
                     <div class="card-body">
                         <table id="example1" class="table table-bordered table-striped">
-                        <thead>
+                            <thead>
                                 <tr>
+                                    <th>No</th>
                                     <th>No. Surat Keluar</th>
                                     <th>Tanggal Surat Keluar</th>
                                     <th>Perihal</th>
@@ -46,25 +47,28 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php $no = 1; ?>
                                 <?php foreach ($surat_keluar as $row) : ?>
-                                <tr>
-                                    <td><?= $row->no_surat_keluar; ?></td>
-                                    <td><?= $row->tgl_surat; ?></td>
-                                    <td><?= $row->perihal; ?></td>
-                                    <td><?= $row->sifat; ?></td>
-                                    <td><?= $row->lampiran; ?></td>
-                                    <td><?= $row->no_surat_masuk; ?></td>
-                                    <td><?= $row->file; ?></td>
-                                    <td>
-                                        <a class="btn btn-success btn-sm" href="<?php echo base_url('data_surat_keluar/detail/' . $row->no_surat_keluar) ?>">Detail</a>
-                                        <a class="btn btn-warning btn-sm" href="<?php echo base_url('data_surat_keluar/edit/' . $row->no_surat_keluar) ?>">Edit</a>
-                                        <a class="btn btn-danger btn-sm" href="<?php echo base_url('data_surat_keluar/delete/' . $row->no_surat_keluar) ?>" onclick="return confirm('Yakin ingin menghapus kategori ini?')">Hapus</a>
-                                    </td>
-                                </tr>
+                                    <tr>
+                                        <td><?= $no++; ?>.</td>
+                                        <td><?= $row->no_surat_keluar; ?></td>
+                                        <td><?= $row->tgl_surat; ?></td>
+                                        <td><?= $row->perihal; ?></td>
+                                        <td><?= $row->sifat; ?></td>
+                                        <td><?= $row->lampiran; ?></td>
+                                        <td><?= $row->no_surat_masuk; ?></td>
+                                        <td><?= $row->file; ?></td>
+                                        <td>
+                                            <a class="btn btn-success btn-sm" href="<?php echo base_url('data_surat_keluar/detail/' . $row->no_surat_keluar) ?>">Detail</a>
+                                            <a class="btn btn-warning btn-sm" href="<?php echo base_url('data_surat_keluar/edit/' . $row->no_surat_keluar) ?>">Edit</a>
+                                            <a class="btn btn-danger btn-sm" href="<?php echo base_url('data_surat_keluar/delete/' . $row->no_surat_keluar) ?>" onclick="return confirm('Yakin ingin menghapus kategori ini?')">Hapus</a>
+                                        </td>
+                                    </tr>
                                 <?php endforeach; ?>
                             </tbody>
                             <tfoot>
                                 <tr>
+                                    <th>No</th>
                                     <th>No. Surat Keluar</th>
                                     <th>Tanggal Surat Keluar</th>
                                     <th>Perihal</th>

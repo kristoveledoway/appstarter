@@ -83,9 +83,12 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <label class="col-md control-label">File Surat<span class="text-danger">*</span></label>
-                                        <div class="col-sm">
-                                            <input type="text" name="file" id="file" class="form-control" placeholder="Masukan File Surat">
+                                        <label for="exampleInputFile">File Surat</label>
+                                        <div class="input-group">
+                                            <div class="custom-file">
+                                                <input type="file" name="file" class="custom-file-input" id="exampleInputFile">
+                                                <label class="custom-file-label" for="exampleInputFile">Cari file</label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

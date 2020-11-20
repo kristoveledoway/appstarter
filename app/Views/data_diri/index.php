@@ -35,6 +35,7 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
+                                    <th>No</th>
                                     <th>Nama</th>
                                     <th>NIK</th>
                                     <th>Jenis Kelamin</th>
@@ -45,8 +46,10 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php $no = 1; ?>
                                 <?php foreach ($diri as $row) : ?>
                                     <tr>
+                                        <td><?= $no++; ?>.</td>
                                         <td><?= $row->nama; ?></td>
                                         <td><?= $row->nik; ?></td>
                                         <td><?= $row->jk; ?></td>
@@ -69,6 +72,7 @@
                             </tbody>
                             <tfoot>
                                 <tr>
+                                    <th>No</th>
                                     <th>Nama</th>
                                     <th>NIK</th>
                                     <th>Jenis Kelamin</th>

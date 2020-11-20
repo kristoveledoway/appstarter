@@ -9,16 +9,22 @@ class M_kas_keluar extends Model
     protected $table = 'data_kas';
     protected $primaryKey     = 'kode';
 
-    public function hitungkeluar() {
+    public function hitungkeluar()
+    {
         $db      = \Config\Database::connect();
         $builder = $db->table('data_kas');
         $builder->selectSum('jumlah_keluar');
         $query = $builder->get();
-        if ($query->getRowArray()>0) {
+        if ($query->getRowArray() > 0) {
             return $query->getRow()->jumlah_keluar;
         } else {
             return 0;
         }
+    }
+
+    public function totalsuratkeluar()
+    {
+        return $this->db->table('data_surat_keluar')->countAll();
     }
 
     function kas_keluar_list()
