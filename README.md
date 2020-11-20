@@ -1,39 +1,52 @@
 # appstarter
-website ikatan mahasiswa seluruh kabupaten deiyai
-----------------------------------------------------
-[![Build Status](https://travis-ci.org/Ekhel/backend-pasar-laut.svg?branch=master)](https://travis-ci.org/Ekhel//backend-pasar-laut)
+
+## website ikatan mahasiswa seluruh kabupaten deiyai
+
+[![Build Status](https://github.com/kristoveledoway/appstarter)](https://github.com/kristoveledoway/appstarter)
 
 ### Back End Applikasi
 
 ## System Requirements :
-* Bahasa Utama :
+
+- Bahasa Utama :
+
   - php
 
-* Framework :
+- Framework :
   - CodeIgniter 4
   - MVC Codeigniter 4
-* Database :
+- Database :
+
   - Mysql
   - xampp
 
-* Template :
+- Template :
   - Admin LTE 3
-----------------------------------------------------
+
+---
 
 ## Fitur Applikasi
-  - [x] Dashboard
-  - [x] CRUD Data User
-  - [x] CRUD Data Diri
-  - [x] CRUD Data Surat Masuk
-  - [x] CRUD Data Surat Keluar
-  - [x] CRUD Data Kas Masuk
-  - [x] CRUD Data Kas Keluar
------------------------------------------------------
+
+- [x] Dashboard
+- [x] CRUD Data User
+- [x] CRUD Data Diri
+- [x] CRUD Data Surat Masuk
+- [x] CRUD Data Surat Keluar
+- [x] CRUD Data Kas Masuk
+- [x] CRUD Data Kas Keluar
+
+---
 
 ## Develop
 
 ### Kristovel Dev :
-* **Selasa 10 November 2020**
+
+- **Selasa 10 November 2020**
+
   - Menambahkan Controllers ke semua Data CRUD [Solved]
   - Menambahkan Models ke semua Data CRUD [Solved]
   - Menambahkan Views ke semua data CRUD [Solved]
+
+- **Jumat 20 November 2020**
+  - Menampilkan Jumlah Total Data tiap Inputan di Dashboard [Solved]
+  - Memberikan penomoran tiap data [Solved]
