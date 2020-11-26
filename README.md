@@ -73,8 +73,8 @@
 - [ ] Laporan bentuk PDF untuk Data Surat Masuk
 - [ ] Laporan bentuk PDF untuk Data Surat Keluar
 
-## untuk fitur laporan bisa di buat di menu Data Laporan yang sudah saya buat
+#### untuk fitur laporan bisa di buat di menu Data Laporan yang sudah saya buat
 
-## atau bisa juga buat diatas tabel dari DATA MASTER tiap menu Data Diri
+#### atau bisa juga buat diatas tabel dari DATA MASTER tiap menu Data Diri
 
-## contohnya tarus tombol print diatas tabel Data diri
+#### contohnya tarus tombol print diatas tabel Data diri
