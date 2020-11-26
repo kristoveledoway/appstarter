@@ -7,13 +7,14 @@ use CodeIgniter\Model;
 class M_surat_masuk extends Model
 {
     protected $table = 'data_surat_masuk';
-    protected $primaryKey     = 'no_surat_masuk';
+    protected $primaryKey     = 'id_surat_masuk';
 
 
     function surat_masuk_list()
     {
-        $builder = $this->db->table('data_surat_masuk');
-        return $builder->get();
+        $this->db->table('data_surat_masuk');
+        $builder = $this->get();
+        return $builder->getResultArray();
     }
 
     public function tambah($data)
@@ -23,14 +24,14 @@ class M_surat_masuk extends Model
 
     public function hapus($id)
     {
-        $this->where('no_surat_masuk', $id);
+        $this->where('id_surat_masuk', $id);
         $this->delete();
     }
 
     public function detail($id)
     {
         $this->where(array(
-            'no_surat_masuk'        => $id
+            'id_surat_masuk'        => $id
         ));
         $query = $this->get();
         return $query->getRowArray();
@@ -38,7 +39,7 @@ class M_surat_masuk extends Model
 
     public function edit($data)
     {
-        $this->where('no_surat_masuk', $data['no_surat_masuk']);
+        $this->where('id_surat_masuk', $data['id_surat_masuk']);
         $this->replace($data);
     }
 }

@@ -1,0 +1,213 @@
+CRITICAL - 2020-11-21 05:48:22 --> Undefined variable: respon
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:50:37 --> Undefined property: App\Controllers\Data_Surat_Masuk::$respon
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:50:39 --> Undefined property: App\Controllers\Data_Surat_Masuk::$respon
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:51:23 --> Undefined variable: response
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:51:27 --> Undefined variable: response
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:51:49 --> Argument 1 passed to CodeIgniter\HTTP\Response::download() must be of the type string, array given, called in C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php on line 20
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\HTTP\Response->download(Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:51:52 --> Argument 1 passed to CodeIgniter\HTTP\Response::download() must be of the type string, array given, called in C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php on line 20
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\HTTP\Response->download(Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:51:56 --> Argument 1 passed to CodeIgniter\HTTP\Response::download() must be of the type string, array given, called in C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php on line 20
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\HTTP\Response->download(Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:54:16 --> Argument 1 passed to CodeIgniter\HTTP\Response::download() must be of the type string, null given, called in C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php on line 20
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\HTTP\Response->download(NULL)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 05:55:18 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_su...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_su...')
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(18): spl_autoload_call('App\\Models\\M_su...')
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-21 05:56:14 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_su...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_su...')
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(18): spl_autoload_call('App\\Models\\M_su...')
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-21 05:57:09 --> Unknown column '1605937250_7f65591cae06b0e681d9.docx' in 'where clause'
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\appstarter\app\Models\M_surat_masuk.php(45): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(19): App\Models\M_surat_masuk->download('1605937250_7f65...')
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#9 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-11-21 05:59:22 --> Unknown column '1605937250_7f65591cae06b0e681d9.docx' in 'where clause'
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\appstarter\app\Models\M_surat_masuk.php(45): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(19): App\Models\M_surat_masuk->download('1605937250_7f65...')
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#9 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-11-21 06:00:02 --> File not found: ../assets/upload/dokumen/
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('../assets/uploa...')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\HTTP\DownloadResponse.php(139): CodeIgniter\Files\File->__construct('../assets/uploa...', true)
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\HTTP\Response.php(1077): CodeIgniter\HTTP\DownloadResponse->setFilePath('../assets/uploa...')
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\HTTP\Response->download('', NULL)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-21 06:08:47 --> File not found: C:\xampp\htdocs\appstarter\public\../assets/upload/dokumen/
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\HTTP\DownloadResponse.php(139): CodeIgniter\Files\File->__construct('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\HTTP\Response.php(1077): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(20): CodeIgniter\HTTP\Response->download('', NULL)
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-21 06:15:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 06:18:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 06:18:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 06:31:00 --> link() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'link() expects ...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(27): link('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-21 06:32:37 --> link() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'link() expects ...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(27): link('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('1605937250_7f65...')
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-21 06:34:15 --> unlink(C:\xampp\htdocs\appstarter\public\../assets/upload/dokumen/1605937250_7f65591cae06b0e681d9.docx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(128): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->delete('18')
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-21 11:37:11 --> Undefined property: App\Controllers\Data_Surat_Masuk::$M_surat_masuk
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('15')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-21 11:38:56 --> Invalid file: data_surat_masuk/download.php
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_surat_masu...')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#2 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(23): view('data_surat_masu...', Array)
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->download('15')
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

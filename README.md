@@ -48,5 +48,33 @@
   - Menambahkan Views ke semua data CRUD [Solved]
 
 - **Jumat 20 November 2020**
+
   - Menampilkan Jumlah Total Data tiap Inputan di Dashboard [Solved]
   - Memberikan penomoran tiap data [Solved]
+
+- **Rabu 25 November 2020**
+  - Mengupload file untuk surat masuk [Solved]
+  - Mengupload file untuk surat keluar [On-Proses]
+  - Laporan bentuk PDF untuk Data Surat Masuk [On-Proses]
+  - Laporan bentuk PDF untuk Data Surat Keluar [On-Proses]
+  - Laporan bentuk PDF untuk Data Kas Masuk [On-Proses]
+  - Laporan bentuk PDF untuk Data Kas Keluar [On-Proses]
+
+## Develop
+
+## Sharul Dev :
+
+## Fitur Applikasi
+
+- [ ] Laporan bentuk PDF untuk Data User
+- [ ] Laporan bentuk PDF untuk Data Diri
+- [ ] Laporan bentuk PDF untuk Data Kas Masuk
+- [ ] Laporan bentuk PDF untuk Data Kas Keluar
+- [ ] Laporan bentuk PDF untuk Data Surat Masuk
+- [ ] Laporan bentuk PDF untuk Data Surat Keluar
+
+## untuk fitur laporan bisa di buat di menu Data Laporan yang sudah saya buat
+
+## atau bisa juga buat diatas tabel dari DATA MASTER tiap menu Data Diri
+
+## contohnya tarus tombol print diatas tabel Data diri

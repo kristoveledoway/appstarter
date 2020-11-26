@@ -1,0 +1,7 @@
+CRITICAL - 2020-11-22 10:57:16 --> Call to undefined function App\Controllers\random_string()
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->tambah()
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -35,7 +35,7 @@
                                     <div class="form-group">
                                         <label class="col-md control-label">No. Surat Keluar<span class="text-danger">*</span></label>
                                         <div class="col-sm">
-                                            <input type="text" name="no_surat_keluar" id="no_surat_keluar" class="form-control" placeholder="Masukan No. Surat Keluar">
+                                            <input type="text" name="no_surat_keluar" id="no_surat_keluar" class="form-control" value="<?= $no_surat; ?>" readonly>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -69,19 +69,23 @@
                                             <input type="text" name="lampiran" id="lampiran" class="form-control" placeholder="Masukan Lampiran Surat">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="col-md control-label">No. Surat Masuk<span class="text-danger">*</span></label>
-                                        <div class="col-sm">
-                                            <input type="text" name="no_surat_masuk" id="no_surat_masuk" class="form-control" placeholder="Masukan No. Surat Masuk">
-                                        </div>
-                                    </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label class="col-md control-label">File Surat<span class="text-danger">*</span></label>
-                                        <div class="col-sm">
-                                            <input type="text" name="file" id="file" class="form-control" placeholder="Masukan File Surat">
-                                        </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label>No. Surat Masuk</label>
+                                    <select class="form-control">
+                                        <?php foreach ($id_surat_masuk as $ism) : ?>
+                                            <option><?= $ism['no_surat_masuk'] . " | " . $ism['perihal'] . " | " . $ism['lampiran'] ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="col-md control-label">File Surat<span class="text-danger">*</span></label>
+                                    <div class="col-sm">
+                                        <input type="text" name="file" id="file" class="form-control" placeholder="Masukan File Surat">
                                     </div>
                                 </div>
                             </div>
