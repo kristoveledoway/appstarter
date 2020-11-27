@@ -43,9 +43,9 @@ class Data_Surat_Keluar extends BaseController
 
     public function tambah()
     {
-        $id_surat_masuk = $this->Model_surat_masuk->surat_masuk_list();
+        $id_surat_masuk = $this->input->post('id_surat_masuk', TRUE);
+        $datas = $this->Model_surat->get_surat_masuk($id_surat_masuk)->result();
         $data = array(
-            'id_surat_masuk' => $id_surat_masuk,
             'no_surat' => date('ymds') . '-' . random_string('alnum', 4)
         );
 
@@ -78,6 +78,7 @@ class Data_Surat_Keluar extends BaseController
             return redirect()->to(base_url('data_surat_keluar'));
             // End masuk database
         }
+        echo json_encode($datas);
         return view('data_surat_keluar/tambah', $data);
     }
 
