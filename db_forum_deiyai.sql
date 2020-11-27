@@ -2,10 +2,10 @@
 -- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Nov 11, 2020 at 12:51 PM
+-- Host: 127.0.0.1
+-- Generation Time: Nov 27, 2020 at 01:56 AM
 -- Server version: 10.4.14-MariaDB
--- PHP Version: 7.2.34
+-- PHP Version: 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -91,22 +91,15 @@ INSERT INTO `data_kas` (`kode`, `keterangan`, `tgl`, `jumlah_masuk`, `jenis`, `j
 --
 
 CREATE TABLE `data_surat_keluar` (
-  `no_surat_keluar` int(3) NOT NULL,
+  `id_surat_keluar` int(15) NOT NULL,
+  `no_surat_keluar` varchar(15) NOT NULL,
   `tgl_surat` date NOT NULL,
   `perihal` varchar(200) NOT NULL,
   `sifat` varchar(200) NOT NULL,
   `lampiran` varchar(200) NOT NULL,
-  `no_surat_masuk` int(3) NOT NULL,
+  `no_surat_masuk` varchar(15) NOT NULL,
   `file` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `data_surat_keluar`
---
-
-INSERT INTO `data_surat_keluar` (`no_surat_keluar`, `tgl_surat`, `perihal`, `sifat`, `lampiran`, `no_surat_masuk`, `file`) VALUES
-(1, '2020-11-08', 'qwerty', 'qwerty', 'qwerty', 1, 'qwerty'),
-(2, '2020-11-07', 'qwpoi', 'qwpoi', 'qwpoi', 2, 'qwpoi');
 
 -- --------------------------------------------------------
 
@@ -115,7 +108,8 @@ INSERT INTO `data_surat_keluar` (`no_surat_keluar`, `tgl_surat`, `perihal`, `sif
 --
 
 CREATE TABLE `data_surat_masuk` (
-  `no_surat_masuk` int(3) NOT NULL,
+  `id_surat_masuk` int(15) NOT NULL,
+  `no_surat_masuk` varchar(15) NOT NULL,
   `tgl_surat` date NOT NULL,
   `tgl_diterima` date NOT NULL,
   `perihal` varchar(255) NOT NULL,
@@ -128,10 +122,10 @@ CREATE TABLE `data_surat_masuk` (
 -- Dumping data for table `data_surat_masuk`
 --
 
-INSERT INTO `data_surat_masuk` (`no_surat_masuk`, `tgl_surat`, `tgl_diterima`, `perihal`, `sifat`, `lampiran`, `file`) VALUES
-(1, '2020-11-01', '2020-11-06', 'as', 'as', 'as', 'as'),
-(2, '2020-11-01', '2020-11-07', 'abc', 'abc', 'abc', 'abc'),
-(5, '2020-11-04', '2020-11-04', 'ere', 'ere', 'ere', 'ere');
+INSERT INTO `data_surat_masuk` (`id_surat_masuk`, `no_surat_masuk`, `tgl_surat`, `tgl_diterima`, `perihal`, `sifat`, `lampiran`, `file`) VALUES
+(4, '20112540-TVxy', '2020-11-01', '2020-11-10', 'Pengenalan Mahasiswa Baru', 'Terbuka', 'Pengenalan', '1606367638_ca90a84f81e09923cb63.pdf'),
+(5, '20112514-mAI7', '2020-11-03', '2020-11-10', 'Pengenalan Mahasiswa Baru', 'Terbuka', 'Pengenalan', '1606367681_4cea8acf85c169dc2c3f.pdf'),
+(6, '20112545-zeZa', '2020-11-04', '2020-11-12', 'as', 'as', 'as', '1606367704_6ead5656419b1bbd919b.pdf');
 
 -- --------------------------------------------------------
 
@@ -152,7 +146,8 @@ CREATE TABLE `data_user` (
 --
 
 INSERT INTO `data_user` (`id`, `nama`, `username`, `password`, `level`) VALUES
-(1, 'kristovel edoway', 'kristo', '124578', 'admin');
+(1, 'kristovel edoway', 'kristo', '124578', 'admin'),
+(4, 'Marlon Wanggai', 'alon', '123456', 'user');
 
 --
 -- Indexes for dumped tables
@@ -174,13 +169,13 @@ ALTER TABLE `data_kas`
 -- Indexes for table `data_surat_keluar`
 --
 ALTER TABLE `data_surat_keluar`
-  ADD PRIMARY KEY (`no_surat_keluar`);
+  ADD PRIMARY KEY (`id_surat_keluar`);
 
 --
 -- Indexes for table `data_surat_masuk`
 --
 ALTER TABLE `data_surat_masuk`
-  ADD PRIMARY KEY (`no_surat_masuk`);
+  ADD PRIMARY KEY (`id_surat_masuk`);
 
 --
 -- Indexes for table `data_user`
@@ -208,19 +203,19 @@ ALTER TABLE `data_kas`
 -- AUTO_INCREMENT for table `data_surat_keluar`
 --
 ALTER TABLE `data_surat_keluar`
-  MODIFY `no_surat_keluar` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_surat_keluar` int(15) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `data_surat_masuk`
 --
 ALTER TABLE `data_surat_masuk`
-  MODIFY `no_surat_masuk` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_surat_masuk` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `data_user`
 --
 ALTER TABLE `data_user`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
