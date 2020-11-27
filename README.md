@@ -53,12 +53,16 @@
   - Memberikan penomoran tiap data [Solved]
 
 - **Rabu 25 November 2020**
+
   - Mengupload file untuk surat masuk [Solved]
   - Mengupload file untuk surat keluar [On-Proses]
   - Laporan bentuk PDF untuk Data Surat Masuk [On-Proses]
   - Laporan bentuk PDF untuk Data Surat Keluar [On-Proses]
   - Laporan bentuk PDF untuk Data Kas Masuk [On-Proses]
   - Laporan bentuk PDF untuk Data Kas Keluar [On-Proses]
+
+- **Jumat 27 November 2020**
+  - Membuat migrations database untuk semua inputan [Solved]
 
 ## Develop
 
