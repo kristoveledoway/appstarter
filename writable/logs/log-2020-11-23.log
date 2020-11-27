@@ -1,0 +1,20 @@
+CRITICAL - 2020-11-23 15:07:12 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#2 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(18): view('data_surat_masu...', Array)
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->index()
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 15:09:02 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('data_surat_masu...', Array, true)
+#2 C:\xampp\htdocs\appstarter\app\Controllers\Data_Surat_Masuk.php(18): view('data_surat_masu...', Array)
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Data_Surat_Masuk->index()
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Surat_Masuk))
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

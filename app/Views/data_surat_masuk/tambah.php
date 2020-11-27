@@ -6,12 +6,12 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Detail Data Surat Masuk</h1>
+                <h1>Tambah Data Surat Masuk</h1>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Detail Data Surat Masuk</li>
+                    <li class="breadcrumb-item active">Tambah Data Surat Masuk</li>
                 </ol>
             </div>
         </div>
@@ -22,11 +22,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-
                 <div class="card">
-
                     <div class="card-header">
-                        <h3 class="card-title">Form Detail Data Surat Masuk</h3>
+                        <h3 class="card-title">Form Tambah Data Surat Masuk</h3>
+                        <!-- Success Upload -->
                     </div>
                     <div class="card-body">
                         <form action="<?php echo base_url('data_surat_masuk/tambah') ?>" method="post" accept-charset="utf-8" enctype="multipart/form-data">
@@ -35,7 +34,7 @@
                                     <div class="form-group">
                                         <label class="col-md control-label">No. Surat Masuk<span class="text-danger">*</span></label>
                                         <div class="col-sm">
-                                            <input type="text" name="no_surat_masuk" id="no_surat_masuk" class="form-control" placeholder="Masukan No. Surat Masuk">
+                                            <input type="text" name="no_surat_masuk" id="no_surat_masuk" class="form-control" value="<?= $no_surat; ?>" readonly>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -83,9 +82,12 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <label class="col-md control-label">File Surat<span class="text-danger">*</span></label>
-                                        <div class="col-sm">
-                                            <input type="text" name="file" id="file" class="form-control" placeholder="Masukan File Surat">
+                                        <label for="exampleInputFile">File Surat</label>
+                                        <div class="input-group">
+                                            <div class="custom-file">
+                                                <input type="file" name="file" class="custom-file-input" id="exampleInputFile">
+                                                <label class="custom-file-label" for="exampleInputFile">Cari file</label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

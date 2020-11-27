@@ -35,6 +35,7 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
+                                    <th>No</th>
                                     <th>Kode Kas Masuk</th>
                                     <th>Keterangan Kas Masuk</th>
                                     <th>Tanggal Kas Masuk</th>
@@ -44,8 +45,10 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php $no = 1; ?>
                                 <?php foreach ($kas_masuk as $row) : ?>
                                     <tr>
+                                        <td><?= $no++; ?>.</td>
                                         <td><?= $row->kode; ?></td>
                                         <td><?= $row->keterangan; ?></td>
                                         <td><?= $row->tgl; ?></td>
@@ -67,10 +70,13 @@
                             </tbody>
                             <tr>
                                 <td colspan="3" style="text-align: right; font-size: 17px; color: maroon;">Total Kas Masuk :</td>
-                                <td colspan="3" style="font-size: 17px; text-align: left; "><font style="color: green;"><?php echo "Rp. " . number_format($totaljumlah); ?>,-</font></td>
+                                <td colspan="3" style="font-size: 17px; text-align: left; ">
+                                    <font style="color: green;"><?php echo "Rp. " . number_format($totaljumlah); ?>,-</font>
+                                </td>
                             </tr>
                             <tfoot>
                                 <tr>
+                                    <th>No</th>
                                     <th>Kode Kas Masuk</th>
                                     <th>Keterangan Kas Masuk</th>
                                     <th>Tanggal Kas Masuk</th>

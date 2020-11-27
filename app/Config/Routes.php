@@ -54,7 +54,7 @@ $routes->add('/data_diri/delete/(:num)', 'Data_Diri::delete/$1');
 $routes->get('/data_surat_masuk', 'Data_Surat_Masuk::index');
 $routes->get('/data_surat_masuk/tambah', 'Data_Surat_Masuk::tambah');
 $routes->add('/data_surat_masuk/tambah', 'Data_Surat_Masuk::tambah');
-$routes->get('/data_surat_masuk/detail/(:num)', 'Data_Surat_Masuk::detail/$1');
+$routes->get('/data_surat_masuk/download/(:num)', 'Data_Surat_Masuk::download/$1');
 $routes->get('/data_surat_masuk/edit/(:num)', 'Data_Surat_Masuk::edit/$1');
 $routes->add('/data_surat_masuk/edit/(:num)', 'Data_Surat_Masuk::edit/$1');
 $routes->add('/data_surat_masuk/delete/(:num)', 'Data_Surat_Masuk::delete/$1');

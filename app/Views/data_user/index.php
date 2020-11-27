@@ -35,6 +35,7 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
+                                    <th>No</th>
                                     <th>Nama</th>
                                     <th>Username</th>
                                     <th>Password</th>
@@ -43,8 +44,10 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php $no = 1; ?>
                                 <?php foreach ($users as $row) : ?>
                                     <tr>
+                                        <td><?= $no++; ?>.</td>
                                         <td><?= $row->nama; ?></td>
                                         <td><?= $row->username; ?></td>
                                         <td><?= $row->password; ?></td>
@@ -62,6 +65,7 @@
                             </tbody>
                             <tfoot>
                                 <tr>
+                                    <th>No</th>
                                     <th>Nama</th>
                                     <th>Username</th>
                                     <th>Password</th>

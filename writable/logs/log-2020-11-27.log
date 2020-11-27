@@ -1,0 +1,16 @@
+CRITICAL - 2020-11-27 00:31:24 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\Database.php(109): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\Config.php(148): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\SQLite3\Connection))
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\Migration.php(78): CodeIgniter\Database\Config::forge('tests')
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1026): CodeIgniter\Database\Migration->__construct()
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(223): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#8 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#10 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\appstarter\spark(57): CodeIgniter\CLI\Console->run()
+#14 {main}

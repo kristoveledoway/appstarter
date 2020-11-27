@@ -35,6 +35,7 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
+                                    <th>No</th>
                                     <th>No. Surat Masuk</th>
                                     <th>Tanggal Surat Diterima</th>
                                     <th>Perihal</th>
@@ -44,23 +45,25 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php $no = 1; ?>
                                 <?php foreach ($surat_masuk as $row) : ?>
-                                <tr>
-                                    <td><?= $row->no_surat_masuk; ?></td>
-                                    <td><?= $row->tgl_diterima; ?></td>
-                                    <td><?= $row->perihal; ?></td>
-                                    <td><?= $row->lampiran; ?></td>
-                                    <td><?= $row->file; ?></td>
-                                    <td>
-                                        <a class="btn btn-success btn-sm" href="<?php echo base_url('data_surat_masuk/detail/' . $row->no_surat_masuk) ?>">Detail</a>
-                                        <a class="btn btn-warning btn-sm" href="<?php echo base_url('data_surat_masuk/edit/' . $row->no_surat_masuk) ?>">Edit</a>
-                                        <a class="btn btn-danger btn-sm" href="<?php echo base_url('data_surat_masuk/delete/' . $row->no_surat_masuk) ?>" onclick="return confirm('Yakin ingin menghapus kategori ini?')">Hapus</a>
-                                    </td>
-                                </tr>
+                                    <tr>
+                                        <td><?= $no++; ?>.</td>
+                                        <td><?= $row['no_surat_masuk'] ?></td>
+                                        <td><?= $row['tgl_diterima'] ?></td>
+                                        <td><?= $row['perihal'] ?></td>
+                                        <td><?= $row['lampiran'] ?></td>
+                                        <td><a class="btn btn-success btn-sm" href="<?php echo base_url('data_surat_masuk/download/' . $row['id_surat_masuk']) ?>">Lihat dan Download File</a></td>
+                                        <td>
+                                            <a class="btn btn-warning btn-sm" href="<?php echo base_url('/data_surat_masuk/edit/' . $row['id_surat_masuk']) ?>">Edit</a>
+                                            <a class="btn btn-danger btn-sm" href="<?php echo base_url('data_surat_masuk/delete/' . $row['id_surat_masuk']) ?>" onclick="return confirm('Yakin ingin menghapus kategori ini?')">Hapus</a>
+                                        </td>
+                                    </tr>
                                 <?php endforeach; ?>
                             </tbody>
                             <tfoot>
                                 <tr>
+                                    <th>No</th>
                                     <th>No. Surat Masuk</th>
                                     <th>Tanggal Surat Diterima</th>
                                     <th>Perihal</th>

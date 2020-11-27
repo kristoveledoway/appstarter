@@ -35,7 +35,7 @@
                                     <div class="form-group">
                                         <label class="col-md control-label">No. Surat Keluar<span class="text-danger">*</span></label>
                                         <div class="col-sm">
-                                            <input type="text" name="no_surat_keluar" id="no_surat_keluar" class="form-control" placeholder="Masukan No. Surat Keluar">
+                                            <input type="text" name="no_surat_keluar" id="no_surat_keluar" class="form-control" value="<?= $no_surat; ?>" readonly>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -55,8 +55,6 @@
                                             <input type="text" name="perihal" id="perihal" class="form-control" placeholder="Masukan Perihal Surat">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-6">
                                     <div class="form-group">
                                         <label class="col-md control-label">Sifat Surat<span class="text-danger">*</span></label>
                                         <div class="col-sm">
@@ -69,19 +67,52 @@
                                             <input type="text" name="lampiran" id="lampiran" class="form-control" placeholder="Masukan Lampiran Surat">
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-6">
                                     <div class="form-group">
-                                        <label class="col-md control-label">No. Surat Masuk<span class="text-danger">*</span></label>
+                                        <label>No. Surat Masuk</label>
+                                        <select class="form-control">
+                                            <?php foreach ($id_surat_masuk as $ism) : ?>
+                                                <option><?= $ism['no_surat_masuk'] . " | " . $ism['perihal'] . " | " . $ism['lampiran'] ?></option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm control-label">Tanggal Surat Keluar<span class="text-danger">*</span></label>
+                                        <div class="col-sm-12">
+                                            <div class="input-group date">
+                                                <div class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-th"></span>
+                                                </div>
+                                                <input placeholder="Masukan Tanggal Surat Keluar" type="text" class="form-control datepicker" name="tgl_surat" value="<?= $ism['tgl_surat']; ?>">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md control-label">Perihal Surat<span class="text-danger">*</span></label>
                                         <div class="col-sm">
-                                            <input type="text" name="no_surat_masuk" id="no_surat_masuk" class="form-control" placeholder="Masukan No. Surat Masuk">
+                                            <input type="text" name="perihal" id="perihal" class="form-control" placeholder="Masukan Perihal Surat">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md control-label">Sifat Surat<span class="text-danger">*</span></label>
+                                        <div class="col-sm">
+                                            <input type="text" name="sifat" id="sifat" class="form-control" placeholder="Masukan Sifat Surat">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md control-label">Lampiran Surat<span class="text-danger">*</span></label>
+                                        <div class="col-sm">
+                                            <input type="text" name="lampiran" id="lampiran" class="form-control" placeholder="Masukan Lampiran Surat">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label class="col-md control-label">File Surat<span class="text-danger">*</span></label>
-                                        <div class="col-sm">
-                                            <input type="text" name="file" id="file" class="form-control" placeholder="Masukan File Surat">
-                                        </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="col-md control-label">File Surat<span class="text-danger">*</span></label>
+                                    <div class="col-sm">
+                                        <input type="text" name="file" id="file" class="form-control" placeholder="Masukan File Surat">
                                     </div>
                                 </div>
                             </div>

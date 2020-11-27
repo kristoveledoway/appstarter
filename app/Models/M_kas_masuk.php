@@ -9,16 +9,22 @@ class M_kas_masuk extends Model
     protected $table = 'data_kas';
     protected $primaryKey     = 'kode';
 
-    public function hitungjumlah() {
+    public function hitungjumlah()
+    {
         $db      = \Config\Database::connect();
         $builder = $db->table('data_kas');
         $builder->selectSum('jumlah_masuk');
         $query = $builder->get();
-        if ($query->getRowArray()>0) {
+        if ($query->getRowArray() > 0) {
             return $query->getRow()->jumlah_masuk;
         } else {
             return 0;
         }
+    }
+
+    public function totalsuratmasuk()
+    {
+        return $this->db->table('data_surat_masuk')->countAll();
     }
 
     function kas_masuk_list()
